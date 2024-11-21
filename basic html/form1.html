@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form method="get" autocomplete="on" style="background-color: rgb(158, 215, 237); width: 30%;">
+        <fieldset>
+            <legend>Enter the Details</legend>
+        <table>
+            <tr>
+                <td><label for="fn">First name</label></td>
+                <td>
+                    <input type="text" name="First name" id="fn" placeholder="Enter the first name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ln">Last name</label></td>
+                <td>
+                    <input type="text" name="Last name" id="ln" placeholder="Enter the last name" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mail">E-mail</label></td>
+                <td>
+                    <input type="text" name="mail" id="mail" placeholder="Enter the E-mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td>
+                    <input type="pass" name="password" id="pass" placeholder="Enter the password" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td>
+                    <textarea name="address" id="address" placeholder="enter the address" required></textarea>
+                </td>
+                <tr>
+                    <td><label for="date">date-of-birth</label></td>
+                    <td>
+                        <input type="week"  name="date" id="date" required>
+                    </td>
+                </tr>
+                    <td><label for="technology">Technology</label></td>
+                    <td>
+                        <select name="technology" id="technology">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="PYTHON">PYTHON</option>
+                            <option value="JAVA">JAVA</option>
+                        </select>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gen">Gender</label>
+                </td>
+                <td>
+                <input type="radio" id="gen" name="gender" value="Male">Male
+                <input type="radio" id="gen" name="gender" value="Female">Female
+                <input type="radio" id="gen" name="gender" value="Others">Others
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="sports" value="cricket">Cricket
+                    <input type="checkbox" name="sports 1" value="kabaddi">Kabaddi
+                    <input type="checkbox" name="sports 2" value="rugby">Rugby
+                    <input type="checkbox" name="sports 3" value="volleyball">Volleyball
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Upload the Image</label>
+                </td>
+                <td>
+                    <input type="image" src="ronaldo" height="50px" width="50px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Upload the file</label>
+                </td>
+                <td>
+                    <input type="file" id="file" name="file name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num">Number</label>
+                </td>
+                <td>
+                    <input type="tel" id="num" name="number" minlength="0" maxlength="9">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <button>submit</button>
+                </td>
+                <td>
+                    <button>Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</center>
+</body>
+</html>

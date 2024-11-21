@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM IN HTML</title>
+</head>
+<body>
+    <center><h1>Flipcart Form </h1></center>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <legend>Enter The Details</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="user">Username</label>
+                </td>
+                <td>
+                    <input type="text" id="user" placeholder="Enter the username" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Pass">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="Pass" placeholder="Enter the password" required pattern="[A-Za-z]{5}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">E-mail</label>
+                </td>
+                <td>
+                    <input type="email" id="mail" placeholder="Enter the mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="add">Address</label>
+                </td>
+                <td>
+                    <textarea name="" id="add" placeholder="Enter the address" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Enter the names</label>
+                </td>
+                <td>
+                    <input type="text" id="name" list="names" required>
+                    <datalist id="names">
+                        <option value="abhinesh">abhinesh</option>
+                        <option value="abhi">abhi</option>
+                        <option value="aravind">aravind</option>
+                        <option value="ravi">ravi</option>
+                        <option value="revi">revi</option>
+                    </datalist>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mob">Mobiles</label>
+                </td>
+                <td>
+                    <select name="mobile" id="mob">
+                    <optgroup label="mobile 1">
+                        <option value="">redmi</option>
+                        <option value="">samsung</option>
+                        <option value="">vivo</option>
+                    </optgroup>
+                    <optgroup label="mobile 2">
+                        <option value="">iphone</option>
+                        <option value="">asus</option>
+                        <option value="">huawaei</option>
+                    </optgroup>
+                </td>
+            </select>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            
+                <td>
+                    <button type="reset">
+                        Cancel
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
