@@ -3,3 +3,28 @@ div{
     background-color: brown;
     width: 110px;
 }
+#single{
+    font-style: italic;
+    color: grey;
+    background-color: aquamarine;
+}
+.text{
+    font-style: italic;
+    color: blue;
+    background-color: antiquewhite;
+}
+h6{
+    font-size: 30px;
+    font-style: italic;
+    color: chartreuse;
+    background-color: azure;
+}
+h3,footer{
+    font-size: 30px;
+    color: cornflowerblue;
+    background-color: yellow;
+    font-style: initial;
+}
+*{
+    background-color: violet;
+}

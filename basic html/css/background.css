@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/24/07/24/stilt-8593487_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+#container{
+    height: 400px;
+    width: 400px;
+    background-color: thistle;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+#box-container{
+    height: 500px;
+    width: 500px;
+    background-color: wheat;
+    background-image: url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center,center right,center left,top right,top left;
+
+}
+#two-images{
+    height: 400px;
+    width: 100%;
+    background-color: tomato;
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/25/14/26/blackbird-3180681_1280.jpg"),url("https://cdn.pixabay.com/photo/2021/07/27/13/37/red-winged-blackbird-6496880_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: 100px 20px, 800px 20px;
+    
+}
