@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: yellow;
+}
+hr{
+    height: 5px;
+    background-color: antiquewhite;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2021/11/16/06/27/luggage-6800246_1280.jpg");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+div{
+    font-size: 35px;
+    width: 100px;
+    color: wheat;
+    padding: 100px;
+    /* border: 5px  10px 5px 0px;
+    border-color: cadetblue;
+    border-style: groove; */
+    border-radius: 10px;
+    margin: 200px 425px;
+    border: 20px groove cadetblue;
+    border-top: 20px groove hotpink;
+    border-right: 20px inset indigo;
+    border-left: 20px outset red;
+    border-bottom: 20px groove yellow;
+    
+}

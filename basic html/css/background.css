@@ -15,7 +15,7 @@ body{
 }
 #box-container{
     height: 500px;
-    width: 500px;
+    width: 100%;
     background-color: wheat;
     background-image: url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg"),url("https://cdn.pixabay.com/photo/2023/05/11/05/40/blackbird-7985552_1280.jpg");
     background-repeat: no-repeat;

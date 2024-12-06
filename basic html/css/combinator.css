@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: 5px solid cadetblue underline;
+}
+main h1{
+    color: blue;
+}
+h1+p{
+    color: yellow;
+}
+article>h2+h1{
+    color: aqua;
+}

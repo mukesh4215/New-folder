@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p-suedo element</title>
+    <style>
+        body{
+            background-color: wheat;
+            text-align: center;
+        }
+        div{
+            background-color: aquamarine;
+            height: 400px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #para{
+            width: 50%;
+        }
+        div>p{
+            width: 100%;
+        }
+        p::first-letter{
+            color: teal;
+            font-size: 40px;
+        }
+        p::first-line{
+            color: darksalmon
+        }
+        li::marker{
+            color: blueviolet;
+            font-size: 25px;
+        }
+        p::before{
+            content: "HEAD LINES ";
+        }
+        p::after{
+            content: "THANK YOU";
+            color: thistle;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        p::selection{
+            background-color: steelblue;
+            color: slategrey;
+        }
+        /* ol{
+            display: inline-block;
+        } */
+
+    </style>
+</head>
+<body>
+    <h1>Psuedo element</h1>
+    <div id="section">
+        <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga id magnam nemo commodi, itaque culpa nihil placeat assumenda sequi esse qui officiis? Temporibus dolorem modi ullam quidem? Labore in hic ducimus suscipit nobis iure cumque esse ipsam fugit quaerat consequatur blanditiis quibusdam recusandae totam nemo ullam et quas, delectus, corporis illo ratione ipsum? Excepturi dignissimos ad consequatur alias modi. Harum laboriosam repellat dolor asperiores nihil eveniet voluptatum necessitatibus alias. Explicabo at, quo quas quibusdam, omnis sequi minima, porro ipsa asperiores libero nemo possimus ea eum autem dolorem perspiciatis velit esse dolorum? Repellat aspernatur quia excepturi tempore minima velit aliquam veritatis maiores, corporis fugiat consequuntur laudantium expedita dolore eaque quisquam ipsum adipisci debitis harum, nemo assumenda dicta alias ut! Inventore cupiditate nam obcaecati et dolore sed esse quo quis, nemo reiciendis suscipit dolorum natus, quidem ut dolorem ducimus sint modi, deleniti recusandae quae quaerat iure molestiae aliquid nostrum? Corrupti, sed repellendus.</p>
+        <ol>
+            <li>button 1</li>
+            <li>button 2</li>
+        </ol>
+    </div>
+</body>
+</html>

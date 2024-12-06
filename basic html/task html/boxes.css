@@ -1,0 +1,36 @@
+#img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+#img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -540px;
+}
+#img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -450px;
+}
+#img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+}
+#img5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -250px;
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2022/07/29/05/22/alps-7351077_1280.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

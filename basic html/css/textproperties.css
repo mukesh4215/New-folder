@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+    background-image: url("https://media.istockphoto.com/id/1501103626/photo/defocused-background-image-of-a-spacious-hallway-in-a-modern-office.jpg?s=1024x1024&w=is&k=20&c=fRP4Bq5z7bvi5Oiu3Az-NdOcIh1PdM5dj1hC5m52t94=");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1{
+    text-align: center;
+    text-decoration: underline gray;
+    text-shadow: 5px 5px 5px;
+}
+p{
+    text-align: justify;
+    background-image: url("https://media.istockphoto.com/id/1504241303/photo/contemporary-classic-white-beige-interior-with-shelves-dry-plants-and-large-lamp-empty-wall.jpg?s=1024x1024&w=is&k=20&c=HPf4c42ghMgi4EtWqmV9UL9rvzu_PjPPbH2oTowtg94=");
+    background-repeat: no-repeat;
+    padding: 50px;
+    background-size: 100% 100%;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    width: 60%;
+    margin: 100px auto;
+    color: black;
+    box-shadow: 15px 15px 15px grey;
+    text-indent: 100px;
+}

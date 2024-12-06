@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            color: aliceblue;
+            align-items: center;
+        }
+        #contents{
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+        }
+        #contents+#cart{
+            color: blueviolet;
+        }
+        #home,#contents{
+            color: yellow;
+        }
+        #contents #p1{
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="home">
+            <h1>home</h1>
+        </div>
+        <div id="contents">
+            <p id="p1">products</p>
+            <p>services</p>
+            <p>history</p>
+        </div>
+        <div id="cart">
+            <h2>cart</h2>
+        </div>
+    </nav>
+</body>
+</html>
