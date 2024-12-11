@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: thistle;
+        }
+        h1{
+            text-align: center;
+            text-decoration: 3px underline;
+        }
+        div{
+            display: inline;
+        }
+        h2{
+            position: absolute;
+            top: 200px;
+            left: 500px;
+            text-transform: capitalize;
+        }
+        div::before{
+            content: "java";
+            animation: text 3s linear 0s infinite none;
+        }
+        @keyframes text {
+            0%{
+                content: "HTML";
+                color: teal;
+            }
+            20%{
+                content: "CSS";
+                color: antiquewhite;
+            }
+            40%{
+                content: "Java Script";
+                color: tomato;
+                font-size: 30px;
+            }
+            60%{
+                content: "Vanilla script";
+                color: cornflowerblue;
+                font-size: 30px;
+            }
+            80%{
+                content: "Node js";
+                color: darkgoldenrod;
+            }
+            100%{
+                content: "Express js";
+                color: slategrey;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation Text Changing Task</h1>
+    <h2>I love <div></div></h2>
+</body>
+</html>
