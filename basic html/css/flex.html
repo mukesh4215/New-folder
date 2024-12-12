@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #flex-container{
+            background-color: black;
+            height: 70vh;
+            width: 80vw;
+            border: 3px dashed wheat;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap-reverse;
+        }
+        .items{
+            background-color: aliceblue;
+            height: 100px;
+            width: 100px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        #flex-items1{
+            order: 6;
+            flex-grow: 1;
+        }
+        #flex-items2{
+           order: 3; 
+        }
+        #flex-items3{
+            order: 2;
+            flex-grow: 1;
+        }
+        #flex-items4{
+           order: 5;
+           flex-basis: 1; 
+        }
+        #flex-items5{
+            order: 1;;
+        }
+        #flex-items6{
+         order: 4;   
+        }
+    </style>
+</head>
+<body>
+    <div id="flex-container">
+        <div id="flex-items1" class="items">flex-boxes1</div>
+        <div id="flex-items2" class="items">flex-boxes2</div>
+        <div id="flex-items3" class="items">flex-boxes3</div>
+        <div id="flex-items4" class="items">flex-boxes4</div>
+        <div id="flex-items5" class="items">flex-boxes5</div>
+        <div id="flex-items6" class="items">flex-boxes6</div>
+    </div>
+
+</body>
+</html>
