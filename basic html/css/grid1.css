@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#grid-container{
+    height: 500px;
+    width: 80%;
+    background-color: teal;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: "hdr hdr hdr hdr hdr"
+                         "hdr hdr hdr hdr hdr"
+                         "nav nav nav nav nav"
+                         "man man man stn stn"
+                         "man man man stn stn"
+                         "man man man art art"
+                         "man man man art art"
+                         "ftr ftr ftr ftr ftr"
+                         "ftr ftr ftr ftr ftr";
+                         gap: 3px;
+}
+.items{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+}
+#grid-items1{
+    grid-area: hdr;
+    background-color: snow;
+    color: black;
+}
+#grid-items2{
+    grid-area: nav;
+}
+#grid-items3{
+    grid-area: man;
+}
+#grid-items4{
+    grid-area: stn;
+    place-self: center;
+    background-color: gainsboro;
+    color: black;
+}
+#grid-items4>p{
+    width: 200px;
+}
+#grid-items5{
+    grid-area: art;
+}
+#grid-items6{
+    grid-area: ftr;
+}
+#grid-items3{
+    grid-area: man;
+    display:grid;
+    grid-template-areas: "abc abc xyz xyz"
+                         "abc abc xyz xyz"
+                         "pqr pqr rst rst"
+                         "pqr pqr rst rst";
+                         gap: 5px;
+}
+#grid-item7{
+    grid-area: abc;
+    background-image: url("https://cdn.pixabay.com/photo/2024/12/11/22/48/path-9261477_1280.png");
+    background-repeat: no-repeat;
+    margin: 1px solid aliceblue;
+    background-size: 100% 100%;
+}
+#grid-item8{
+    grid-area: xyz;
+    background-image: url("https://cdn.pixabay.com/photo/2024/10/01/06/53/boy-9087310_1280.png");
+    background-repeat: no-repeat;
+    margin: 1px solid aliceblue;
+    background-size: 100% 100%;
+}
+#grid-item9{
+    grid-area: pqr;
+    background-image: url("https://cdn.pixabay.com/photo/2023/11/12/16/26/car-8383398_1280.jpg");
+    background-repeat: no-repeat;
+    margin: 1px solid aliceblue;
+    background-size: 100% 100%;
+}
+#grid-item10{
+    grid-area: rst;
+    background-image: url("https://cdn.pixabay.com/photo/2024/12/01/01/31/village-9236268_1280.jpg");
+    background-repeat: no-repeat;
+    margin: 1px solid aliceblue;
+    background-size: 100% 100%;
+}
+
