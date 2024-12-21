@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #err{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #ergo{
+            display: flex;
+            justify-content: space-around ;
+            align-items: center;
+        }
+        #wee{
+            width: 400px;
+        }
+        @media screen and (min-width:320px) and (max-width:480px) {
+            #err{
+                flex-direction: column;
+                height: 600px;
+                gap: 20px;
+
+            }
+        }
+        @media screen and (min-width:320px) and (max-width:480px) {
+            #ergo{
+                display: flex;
+                flex-direction: column;height: 700px;
+                justify-content: center;
+            }
+        }
+        @media screen and (min-width:320px) and (max-width:480px) {
+            #wee{
+                width: 60%;
+                color: aquamarine;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <div id="err">
+            <img src="https://cdn.pixabay.com/photo/2023/12/17/09/47/door-8453898_1280.jpg" alt="" height="300px" width="300px">
+            <img src="https://cdn.pixabay.com/photo/2014/11/21/17/17/house-540796_1280.jpg" alt="" height="300px" width="300px">
+            <img src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg" alt="" height="300px" width="300px">
+        </div><br>
+        <div id="ergo">
+            <img src="https://cdn.pixabay.com/photo/2023/05/30/17/25/door-8029228_1280.jpg" alt="" height="300px" width="300px">
+            <p id="wee">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quibusdam harum molestias, facere minus cum consequatur sit amet sequi eum quis voluptatem minima nobis tempora temporibus non accusamus, fugit corrupti. Sapiente, officiis repellendus aliquid aperiam dolorem exercitationem! Quo quos voluptatibus itaque, commodi nemo sequi hic, nam eum ex laboriosam neque.</p>
+        </div>
+    </div>
+</body>
+</html>
